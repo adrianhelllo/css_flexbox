@@ -49,14 +49,15 @@ hr {
     flex-shrink: 1;
     flex-grow: 1; */
 
-    flex: 1 1 350px;
+    flex: 1 1 150px;
 }
 
 .box:nth-child(2) {
     /* flex-shrink: 10;
     flex-grow: 2; */
 
-    flex: 10 10 350px;
+    flex: 10 10 150px;
+    order: 5;
 
     /* format: flex: grow shrink basis */
 }
