@@ -24,7 +24,7 @@ body {
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
-    align-content: flex-start;
+    align-content: center;
 }
 
 .box {
