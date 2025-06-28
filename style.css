@@ -46,4 +46,5 @@ hr {
     align-items: center;
 
     flex-basis: 100px;
+    flex-grow: .4;
 }
