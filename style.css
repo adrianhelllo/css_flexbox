@@ -18,9 +18,9 @@ body {
     margin-inline: auto;
     border: 1px solid black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex;
+    flex-direction: column;
 }
 
 .box {
