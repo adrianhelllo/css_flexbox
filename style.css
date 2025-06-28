@@ -6,6 +6,10 @@ body {
     padding: 20px;
 }
 
+hr {
+    margin-bottom: 2rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,4 +40,8 @@ body {
     font-size: 2rem;
     padding: 0.5rem;
     border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
