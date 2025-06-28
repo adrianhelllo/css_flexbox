@@ -47,8 +47,10 @@ hr {
 
     flex-basis: 350px;
     flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .box:nth-child(2) {
     flex-shrink: 10;
+    flex-grow: 2;
 }
