@@ -40,7 +40,7 @@ hr {
     font-size: 2rem;
     padding: 0.5rem;
     border: 1px solid black;
-
+    /* individual flex properties */
     display: flex;
     justify-content: center;
     align-items: center;
