@@ -33,7 +33,7 @@ hr {
 
 .box {
     /* considered flex items in a flex container */
-    min-width: 100px;
+    /* min-width: 100px; */
     height: 100px;
     background-color: rgb(77, 77, 77);
     color: white;
