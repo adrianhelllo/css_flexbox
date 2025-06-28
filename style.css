@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .box {
@@ -30,4 +31,5 @@ body {
     color: white;
     font-size: 2rem;
     padding: 0.5rem;
+    border: 1px solid black;
 }
