@@ -45,12 +45,18 @@ hr {
     justify-content: center;
     align-items: center;
 
-    flex-basis: 350px;
+    /* flex-basis: 350px;
     flex-shrink: 1;
-    flex-grow: 1;
+    flex-grow: 1; */
+
+    flex: 1 1 350px;
 }
 
 .box:nth-child(2) {
-    flex-shrink: 10;
-    flex-grow: 2;
+    /* flex-shrink: 10;
+    flex-grow: 2; */
+
+    flex: 2 10 inherit;
+
+    /* format: flex: grow shrink basis */
 }
