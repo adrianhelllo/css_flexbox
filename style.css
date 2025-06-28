@@ -56,7 +56,7 @@ hr {
     /* flex-shrink: 10;
     flex-grow: 2; */
 
-    flex: 10 2 350px;
+    flex: 10 10 350px;
 
     /* format: flex: grow shrink basis */
 }
