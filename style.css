@@ -20,8 +20,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
 }
 
 .box {
