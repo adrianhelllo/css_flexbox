@@ -27,7 +27,7 @@ hr {
     justify-content: center;
     /* flex-direction: row;
     flex-wrap: wrap; */
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-content: center;
 }
 
@@ -45,6 +45,10 @@ hr {
     justify-content: center;
     align-items: center;
 
-    flex-basis: 100px;
-    flex-grow: .4;
+    flex-basis: 350px;
+    flex-shrink: 1;
+}
+
+.box:nth-child(2) {
+    flex-shrink: 10;
 }
